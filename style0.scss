@@ -1,0 +1,30 @@
+div {
+  font-size:18px;
+
+h1{
+  color: blue;
+}
+p {
+  color: purple;}
+}
+
+%message
+{
+  font-family:sans-serif;
+  font-size:18px;
+  border:1px solid black;
+  padding:18px;
+  margin:20px;
+}
+  .welcome
+  {@extend %message;
+    background-color:orange;
+}
+      .contact {
+      @extend %message;
+      background-color:lightblue;
+    }
+      .coursename {
+      @extend %message;
+      background-color:red;
+    }
